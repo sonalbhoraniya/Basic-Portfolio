@@ -14,21 +14,27 @@
           box-sizing: border-box;
 }
 
-.primary-header {
+.primary {
   background: white;
   height: 75px; 
   width: 100%;
   position: absolute; 
-  margin: 0; 
+  margin: 0 auto; 
   border-bottom: 2px solid #cccccc; 
 }
 
+.content {
+  width: 960px; 
+  margin: 0 auto; 
+  display: block; 
+  position: relative; 
+}
+
 .logo {
-    width: 12%;
+    width: 20%;
     height: 75px; 
     background: teal;
     position: relative; 
-    left: 475px; 
     top: -18px;   
     color: white;
     font-size: 24px; 
@@ -57,7 +63,7 @@
   vertical-align: bottom;
   position: relative; 
   bottom: 100px; 
-  right: 475px; 
+  right: 0; 
   padding-left: 20px;  
 }
 .division{
@@ -81,7 +87,7 @@
   background: #ffffff;
   width: 960px; 
   height: 475px; 
-  margin-left: 475px; 
+  margin: 0 auto;  
   border: 1px solid lightgray; 
   display: block; 
   position: relative; 
@@ -196,7 +202,7 @@ label{
   background: #ffffff;
   width: 960px; 
   height: 800px; 
-  margin-left: 475px; 
+  margin: 0 auto;  
   border: 1px solid lightgray; 
   display: block; 
   position: relative; 
