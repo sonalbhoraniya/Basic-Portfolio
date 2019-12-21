@@ -42,6 +42,7 @@
     line-height: 24px;  
     text-align: center;
     padding-top: 22px; 
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
   /*
@@ -58,6 +59,7 @@
 }
 
 .nav li {
+  font-family: 'Fira Sans Condensed', sans-serif;
   display: inline-block;
   margin: 0 10px;
   vertical-align: bottom;
@@ -87,10 +89,10 @@
   background: #ffffff;
   width: 960px; 
   height: 475px; 
-  margin: 0 auto;  
   border: 1px solid lightgray; 
   /* display: block;  */
   position: relative; 
+  margin: 0 auto;
   top: 150px; 
 }
 
@@ -105,6 +107,7 @@
 }
 
 h2 {
+  font-family: 'Roboto Condensed', sans-serif;
   padding-left: 20px; 
   color: teal; 
 }
@@ -121,6 +124,12 @@ p{
   margin: 30px 50px 0px 20px; 
   line-height: 24px;
   padding-right: 20px; 
+}
+
+.newfont {
+  font-family: 'Shadows Into Light', cursive;
+  font-size: 20px; 
+  line-height: 1.5; 
 }
 
 .primary-footer {
@@ -143,12 +152,12 @@ p{
 */
 
 a {
-    color: #648880;
+    color: #a9b2b9;
     text-decoration: none;
   }
   
   a:hover {
-    color: #a9b2b9;
+    color: #648880; 
   }
   
   .primary-header a, {
@@ -190,6 +199,10 @@ label{
   color: #777777; 
 }
  
+.container {
+  font-family: 'Assistant', sans-serif;
+}
+
 /*
 
   ========================================
@@ -225,6 +238,7 @@ label{
 }
 
 .picturetext{
+  font-family: 'Assistant', sans-serif;
   width: 300px; 
   height: 50px; 
   background: teal; 
@@ -238,12 +252,12 @@ label{
   grid-template-columns: 1fr 1fr;
 }
 
-.books {
+.hangman {
   position: relative;
   top: 150px; 
 }
 
-.chemistry {
+.crystals {
   position: relative;
   top: 150px; 
 }
