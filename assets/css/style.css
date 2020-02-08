@@ -80,7 +80,7 @@
   /* background-position: center; */
   /* margin-top: 40px;  */
   width: 100%; 
-  height: 1000px; 
+  height: 1500px; 
   background-size: cover; 
   /* position: absolute;  */
 }
@@ -214,7 +214,7 @@ label{
 .major-section  {
   background: #ffffff;
   width: 960px; 
-  height: 800px; 
+  height: 1200px; 
   margin: 0 auto;  
   border: 1px solid lightgray; 
   display: block; 
@@ -274,4 +274,14 @@ label{
 .train {
   position: relative;
   top: 530px; 
+}
+
+.fireworks {
+  position: relative;
+  top: 530px; 
+}
+
+.music {
+  position: relative;
+  top: 800px; 
 }
