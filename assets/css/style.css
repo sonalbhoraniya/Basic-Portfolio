@@ -223,7 +223,7 @@ label{
 }
 
 .portfolio-pictures {
-  width: 300px; 
+  width: 250px; 
   height: 200px; 
   margin-right: 40px;
   margin-bottom: 30px;  
@@ -234,22 +234,22 @@ label{
   position: absolute; 
   margin-left: 20px; 
   display: grid; 
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .picturetext{
   font-family: 'Assistant', sans-serif;
-  width: 300px; 
+  width: 250px; 
   height: 50px; 
   background: teal; 
   margin-left: 20px; 
   margin-right: 20px; 
-  padding: 15px 20px 15px 100px; 
+  /* padding: 15px 20px 15px 100px;  */
   color: white;
   text-align: center; 
   float: left; 
   display: grid; 
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .hangman {
@@ -261,9 +261,10 @@ label{
   position: relative;
   top: 150px; 
 }
+
 .frisbee {
   position: relative;
-  top: 340px; 
+  top: 150px; 
 }
 
 .disney {
@@ -273,20 +274,25 @@ label{
 
 .train {
   position: relative;
-  top: 530px; 
+  top: 340px; 
 }
 
 .fireworks {
   position: relative;
-  top: 530px; 
+  top: 340px; 
 }
 
 .music {
   position: relative;
-  top: 800px; 
+  top: 530px; 
 }
 
 .bamazon {
   position: relative;
-  top: 800px; 
+  top: 530px; 
+}
+
+.drinks {
+  position: relative;
+  top: 530px; 
 }
