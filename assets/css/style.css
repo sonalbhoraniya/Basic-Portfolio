@@ -156,11 +156,11 @@ a {
     text-decoration: none;
   }
   
-  a:hover {
+a:hover {
     color: #648880; 
   }
   
-  .primary-header a, {
+.primary-header a, {
     color: #dfe2e5; 
   }
 
